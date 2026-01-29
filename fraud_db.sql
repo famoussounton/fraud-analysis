@@ -1,0 +1,21 @@
+CREATE TABLE transactions (
+    step INT,
+    type TEXT,
+    amount DOUBLE PRECISION,
+    nameOrig TEXT,
+    oldbalanceOrg DOUBLE PRECISION,
+    newbalanceOrig DOUBLE PRECISION,
+    nameDest TEXT,
+    oldbalanceDest DOUBLE PRECISION,
+    newbalanceDest DOUBLE PRECISION,
+    isFraud INT,
+    isFlaggedFraud INT,
+    balance_diff_orig DOUBLE PRECISION,
+    balance_diff_dest DOUBLE PRECISION,
+    high_amount_flag INT,
+    empty_dest_flag INT,
+    is_transfer INT,
+    is_cash_out INT,
+    hour INT,
+    day INT
+);

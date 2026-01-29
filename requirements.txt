@@ -1,0 +1,9 @@
+streamlit
+polars
+plotly
+altair
+pyarrow
+pandas
+jupyter
+ipykernel
+matplotlib
