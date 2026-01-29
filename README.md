@@ -15,11 +15,7 @@
 ```bash
 fraud-analysis/
 ├── data/                   
-│   ├── fraud_data_chunks/  # Split parquet files (push this to GitHub!)
-│   │   ├── part_000.parquet
-│   │   └── ...
-│   ├── fraud_dataset.csv   # Raw data (ignored)
-│   └── final.parquet       # Local full file (ignored)
+│   └── fraud_data_chunks/  # Split parquet files
 ├── notebooks/              # Jupyter Notebooks for analysis
 │   ├── 01_data_loading.ipynb
 │   ├── 02_cleaning.ipynb
@@ -32,7 +28,9 @@ fraud-analysis/
 │       ├── 1_Overview.py
 │       ├── 2_Fraud_Analysis.py
 │       └── 3_Account_Investigation.py
+├── fraud_db.sql            # Database schema/queries
 ├── requirements.txt        # Python dependencies
+├── split_data.py           # Script to split data
 └── README.md               # Project documentation
 ```
 
@@ -76,10 +74,13 @@ The application will open in your default web browser at `http://localhost:8501`
 
 ## ☁️ Deployment
 
-This app is ready for deployment on **Streamlit Cloud**:
+Check out the live application on Streamlit Cloud:
+👉 **[FraudSense Analytics Live App](https://sountonfamous-fraud-analysis.streamlit.app)**
+
+This app is ready for deployment:
 1.  Push code to GitHub.
 2.  Connect your repository to Streamlit Cloud.
-3.  Deploy! (See detailed guide below).
+3.  Deploy!
 
 ---
 *Created for Portfolio purposes.*
