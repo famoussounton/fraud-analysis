@@ -54,7 +54,10 @@ fraud-analysis/
     ```
 
 4.  **Prepare Data:**
-    Ensure you have the dataset in the `data/` folder. If starting from raw CSV, run the notebooks in order (01 to 04) to generate `final.parquet`.
+    Ensure you have the dataset in the `data/` folder. You can download the initial dataset from this link:
+    👉 **[Download Initial Dataset (Google Drive)](https://drive.google.com/file/d/1ZVtrvkTPbM1_SytmHRu0wcYcJHhfqQif/view?usp=sharing)**
+    
+    If starting from raw CSV, run the notebooks in order (01 to 04) to generate `final.parquet`.
 
 ## 🖥️ Running the Dashboard
 
